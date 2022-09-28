@@ -4,9 +4,9 @@ Um feed de uma rede social feito com React no Bootcamp da Rocketseat.
 
 Funcionalidades:
 
-Aplaudir = funcionalidade de curtir do facebook.
-Novo comentário
-Deletar comentário
+° Aplaudir = funcionalidade de curtir do facebook.<br>
+° Novo comentário<br>
+° Deletar comentário<br>
 <br><br>
 
 <h2>Instale as seguintes dependências antes de rodar o projeto:</h2>
