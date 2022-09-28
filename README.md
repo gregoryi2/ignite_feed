@@ -1,7 +1,5 @@
 # Ignite Feed
 
-<h1>Ignite Feed</h1>
-
 Um feed de uma rede social feito com React no Bootcamp da Rocketseat.
 <br><br>
 
@@ -18,5 +16,3 @@ Um feed de uma rede social feito com React no Bootcamp da Rocketseat.
 <img src="">
 
 <br><br>
-
-<img src="">
