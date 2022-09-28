@@ -1,4 +1,4 @@
-# Ignite Feed
+# <img src="https://raw.githubusercontent.com/gregoryi2/ignite_feed/bd5db7436e9b278e079dfb33757acf506f9255ff/src/assets/ignite-logo.svg"> Ignite Feed
 
 Um feed de uma rede social feito com React no Bootcamp da Rocketseat.
 <br><br>
