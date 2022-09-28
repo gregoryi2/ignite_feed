@@ -13,6 +13,6 @@ Um feed de uma rede social feito com React no Bootcamp da Rocketseat.
 
 <br><br>
 
-<img src="">
+<img src="https://raw.githubusercontent.com/gregoryi2/ignite_feed/master/img.png">
 
 <br><br>
