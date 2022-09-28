@@ -1,0 +1,80 @@
+Instalar todas as dependências:
+npm i
+npm i date-fns
+-------------------------------
+
+Não é possível utilizar vários componentes se os mesmo não estiverem dentro de outro componente, exemplo:
+
+<div>
+  <componente />
+  <componente />
+  <componente />
+</div>
+-------------------------------
+
+Presar por utilizar a seguinte sintaxe na criação de componentes:
+
+export function NomeComponente() {}
+--------------------------------
+
+para utilizar javascript no html, sempre envolva o script com chaves {script aqui}.
+
+Propriedades são informações que nós passamos pros componentes como o 
+"src=" na tag <img>
+
+para acessar ao conteúdo dessas propriedades, temos que passar uma "props" na chamada da função, e na tag que vamos utilizar, passar o seguinte:
+
+<p>{props.src}<p>
+--------------------------------
+Um pouco de CSS:
+
+-webkit-font-smoothing: antialiased
+serve para deixar a fonte mais perfeita e sem serrilhado
+
+1rem = 16px
+
+.post + .post{} = Significa que essa estilização só será aplicada nos próximos componentes que também tiverem a classe .post, o primeiro componente com a classe .post não será afetado.
+
+.post > header = vai aplicar a estilização apenas na primeira tag header.
+
+.commentForm:focus-within footer {} = Quando qualquer componente dentro do footer tiver um focus, ou seja clicando clicando no componente, essa estilização será aplicada. 
+---------------------------------
+
+Mais um site de ícones: 
+https://phosphoricons.com/
+
+Para instalar a dependência:
+npm i phosphor-react
+---------------------------------
+key={}:
+
+A key={} "Que geralmente é o id pq o conteúdo da key deve ser único", deve ser sempre colocado no primeiro elemento a ser retornado em uma iteração "no casa da aplicação atual, é um map()."
+
+3 momentos importantes em que um componente é renderizado novamente no React:
+
+1. Quando o estado altera.
+2. quando a propriedade altera.
+3. quando um componente pai renderiza novamente.
+-------------------------------------
+
+Componentes também podem passar funções como propriedade, exemplo:
+
+<Comment função={nomeDaFuncao} />
+--------------------------------------
+
+Imutabilidade:
+
+const [variavel, setVariavel] = useState([]);
+
+o valor da variável nunca é mudado, ele é sempre excluído e substituído por outro valor que vem através da variável setVariável.
+--------------------------------------
+
+onInvalid={}
+
+Serve para o HTML monitorar se a TextArea está vazia, e pode ser passado uma função.
+--------------------------------------
+
+onClick={função()} = A função vai ser executada indepentende do clique, só o fato da página ser carregada, faz com que a função seja execultada.
+
+onClick={função} = Maneira correta de se passar uma função.
+--------------------------------------
